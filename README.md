@@ -1,34 +1,158 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Silk Sheets
 
-## Getting Started
+A collection of beautiful, interactive sheet components for modern web applications. This repository contains various implementations of sheets (bottom sheets, top sheets, side sheets) with different behaviors and use cases.
 
-First, run the development server:
+## 🚀 Live Demo
+
+Visit [https://3-28-2025-siolk-xihs-projects.vercel.app](https://3-28-2025-siolk-xihs-projects.vercel.app) to see all components in action.
+
+## 📦 Available Sheets
+
+### Bottom Sheet
+
+A sheet that slides up from the bottom of the screen. Perfect for mobile-first interfaces and action menus.
+
+- Location: `src/components/examples/BottomSheet`
+- Features:
+  - Smooth animations
+  - Touch-friendly
+  - Customizable height
+
+### Top Sheet
+
+A sheet that slides down from the top of the screen. Ideal for notifications or context-specific toolbars.
+
+- Location: `src/components/examples/TopSheet`
+- Features:
+  - Responsive design
+  - Customizable content
+  - Easy to integrate
+
+### Sheet with Detent
+
+A sheet with specific snap points (detents) that users can drag to.
+
+- Location: `src/components/examples/SheetWithDetent`
+- Features:
+  - Multiple snap points
+  - Smooth snapping behavior
+  - Customizable detent positions
+
+### Sheet with Keyboard
+
+A sheet that handles keyboard interactions gracefully.
+
+- Location: `src/components/examples/SheetWithKeyboard`
+- Features:
+  - Keyboard-aware
+  - Adjusts for virtual keyboards
+  - Accessibility support
+
+### Sheet with Stacking
+
+Multiple sheets that can be stacked on top of each other.
+
+- Location: `src/components/examples/SheetWithStacking`
+- Features:
+  - Z-index management
+  - Independent sheet controls
+  - Nested sheet support
+
+### Long Sheet
+
+A sheet designed for scrollable content.
+
+- Location: `src/components/examples/LongSheet`
+- Features:
+  - Smooth scrolling
+  - Overflow handling
+  - Pull-to-refresh capability
+
+### Page Sheet
+
+A full-page sheet that can be used as a modal or secondary view.
+
+- Location: `src/components/examples/Page`
+- Features:
+  - Full-screen coverage
+  - Custom transitions
+  - Rich content support
+
+### Page from Bottom
+
+A variation of the page sheet that animates from the bottom.
+
+- Location: `src/components/examples/PageFromBottom`
+- Features:
+  - Bottom-up animation
+  - Mobile-friendly
+  - Customizable transitions
+
+### Detached Sheet
+
+A floating sheet that isn't anchored to any edge of the screen.
+
+- Location: `src/components/examples/DetachedSheet`
+- Features:
+  - Free-floating positioning
+  - Draggable
+  - Resizable
+
+### Sidebar Sheet
+
+A sheet that slides in from the side of the screen.
+
+- Location: `src/components/examples/Sidebar`
+- Features:
+  - Left/right positioning
+  - Responsive breakpoints
+  - Collapsible content
+
+### Toast Sheet
+
+A minimal notification sheet for temporary messages.
+
+- Location: `src/components/examples/Toast`
+- Features:
+  - Auto-dismiss
+  - Stack management
+  - Different severity levels
+
+## 🛠 Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+git clone git@github.com:xih/silk-sheets.git
+```
+
+2. Install dependencies:
+
+```bash
+pnpm install
+```
+
+3. Run the development server:
+
+```bash
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Customization
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Each sheet component is highly customizable through props and can be styled using CSS modules or your preferred styling solution. Check the individual component directories for specific customization options.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📱 Browser Support
 
-## Learn More
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Mobile browsers (iOS Safari, Chrome for Android)
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📄 License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+MIT License - feel free to use these components in your projects.
